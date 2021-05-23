@@ -1,0 +1,44 @@
+*.pyc
+*~
+*.DS_Store
+*/*.DS_Store
+*.idea
+*.ipython_checkpoints
+*.ipynb_checkpoints
+*.ipynb
+*.cache
+*.egg-info
+*.mypy_cache/
+*.pytest_cache/*
+.pytest_cache/*
+__pycache__/
+cache/*
+idea/*
+.vscode/*
+.coverage
+.coverage*-*
+htmlcov/
+coverage.xml
+pytest.xml
+
+# Project data files
+.env
+data/storage/*
+data/models/*
+notebooks/*
+mlruns/*
+
+# Data files formats
+*.zip
+*.csv
+*.xlsx
+*.npy
+*.pickle
+*.log
+*.svg
+
+# Build folders
+venv/
+build/
+dist/
+*.egg-info/
